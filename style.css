@@ -1,0 +1,55 @@
+html, body{
+    width:100%;
+    height:100%;
+    background-color:#ffffff;
+    font-family:'EB Garamond', sans-serif;
+    color:black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.title{
+    position:relative;
+    top:40px;
+}
+
+#title-p{
+    font-size:35px;
+}
+
+.subtitle{
+    position:relative;
+    top:7.5px;
+}
+
+#subtitle-p{
+    max-width:340px;
+}
+
+a{
+    text-decoration:underline;
+    color:black;
+}
+
+.editions{
+    position:relative;
+    top:5px;
+    right:90px;
+}
+
+li{
+    list-style-type:"- ";
+}
+
+.working-class{
+    position:relative;
+    top:0px;
+}
+
+ul {
+    align-self: flex-start;
+    margin-top: 0;
+}
