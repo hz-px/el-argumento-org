@@ -42,6 +42,15 @@ a{
 
 li{
     list-style-type:"- ";
+    cursor: pointer;
+}
+
+li[data-pdf-url] {
+    cursor: pointer;
+}
+
+li[data-pdf-url]:hover {
+    text-decoration: underline;
 }
 
 .working-class{
