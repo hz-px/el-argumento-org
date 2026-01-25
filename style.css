@@ -40,6 +40,11 @@ a{
     right:90px;
 }
 
+ul{
+    position:relative;
+    left:50px;
+}
+
 li{
     list-style-type:"- ";
     cursor: pointer;
